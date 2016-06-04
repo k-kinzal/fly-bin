@@ -1,6 +1,6 @@
 {
-  "name": "flow-bin",
-  "version": "0.0.0",
+  "name": "fly-bin",
+  "version": "0.0.1",
   "description": "Binary wrapper for fly",
   "main": "index.js",
   "scripts": {

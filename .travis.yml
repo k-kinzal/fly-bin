@@ -1,9 +1,9 @@
 language:
 - node_js
 node_js:
-  - "6"
-  - "5"
-  - "4"
+- '6'
+- '5'
+- '4'
 sudo: false
 cache:
   directories:
@@ -14,8 +14,8 @@ deploy:
   provider: npm
   email: log@logn.in
   api_key:
-    secure: d8gZ8uW1YSIlq+3Djs1fs3QAA9JR+MdZFoimCb0zBNvAg7fg0yoRLrLSemYjtP2u9fVk7AQBY+FFQ+Dg+aOLMf1kzEyRbYEVHgFoAsDZiK0BqYoQEVXyOuGEbF2sqd0b165ACJRQU3jWhyDtBzd1VMl77GNDeY64I2WZH2lc6sSDzE0ZG44g4yufOZh/R/tqWMXbknG3u+mZjiAA9a4Hyq+3TF/3c191nM67kniMAMtZDyV1d54izX69I+zb/10HODklgSUqfDCOOWkGftDYvp7UpzQt0EGiHtyiYjnO98du5dKA+vJqlDXGvo2SkP5WGCqSZR7+8Lp/ut9W5kbXPXb9K7hISsecyQLzkwdOuoO1nV7rvKPiVTmgv4DzleDPxbKFFmGj8E7vrqHxjbuEgVvNL2WVItBbv8gccO/h1sDeI/hXdiH5Gb1oUcaUBoJ7Hcns9sgOO80LY63FdD7bgXRJ7cEEzr3vcdO2A0Dg7OBz4UqmppaPSHPB6e+MR/KYzt5epJo16sGAeohTiULa+rRMbVD7Biwm8+U0qHNe7eLnAHSub53+Tb/fUbVo7LGGTqQrdlTvZOCxid+3QoqFVmKo+RaetIvl0pVPySXQR/nOzGCFxE17XNyPiki/cbMLHn8d8+136vhajl0QUyTkb3fCg2J1lST3YrdsrCGZRJo=
+    secure: OE7VzHdjODijebjf0VfmKjRHeNvn6PWH3LCldIUSIE83eLqJYzMUUrawIQAEgGtuTPTIQXZZtxbrAGX7yc5ZimC7V9Bu4osKu9oxuKRR8LmvLq04eRxNXPZi1GsB6RGxs94uk8/iBvs1EmrEaF9pd7fEUcfx1XFJ3X596wCs5jxUaIc6+CphvpNdlwmqKkvThnKDzLMhWMSHcgQ8Puvs/dUzIG/eQQxdiQr5do5c5g19wZ/uzIQK7j+WqeOYOegQMJOlK/4Wfn1bsSfAzXgKtweBIqOKrPp66r/y7eq288g83KfIloOAc4BZ+klvh7mE6Ehf9t7Q1B1kjapqkSBllDeMgY7/iXVkIsFRtOXTPeXU370cAYNRICJdO1U76Ng2GEyhGyhfebaNsFg/mD47/qTgQdu9kA/LYfU+VBONtiyAJx/DgmfbLP3vjdbJqXW6sJ1yrGzYnfLPwZRUAibiXe6AZWv5f/FEDcV6vlAWNL9NMjfmCO0JXUILtmWYXwG5WUCrJn8k5LzVS72zJ1mj6KmSInfMddnhfZFJmp8F+H7+IwWo/z0NDx3SE8IfuJKI7oiA7lAn6leP9cXi1YcSUnHce4m2QPoeMf+NR9si5v5UKkodP2ytFfjq2B6MFmoEjyOG8zjiaFDakHJP/OizxHdyeBRThj0rE0wb4vCQMIE=
   on:
     tags: true
-    repo: k-kinzal/node-fly-bin
+    repo: k-kinzal/fly-bin
   skip_cleanup: true
