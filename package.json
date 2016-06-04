@@ -1,0 +1,40 @@
+{
+  "name": "flow-bin",
+  "version": "0.0.0",
+  "description": "Binary wrapper for fly",
+  "main": "index.js",
+  "scripts": {
+    "test": "rm -rf vendor && node install.js",
+    "fly": "node cli.js --version",
+    "postinstall": "node install.js"
+  },
+  "bin": {
+    "fly": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/k-kinzal/fly-bin"
+  },
+  "author": {
+    "name": "k-kinzal",
+    "email": "log@logn.in"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/k-kinzal/fly-bin/issues"
+  },
+  "homepage": "https://github.com/k-kinzal/fly-bin",
+  "keywords": [
+    "cli-app",
+    "cli",
+    "bin",
+    "binary",
+    "concourse"
+  ],
+  "dependencies": {
+    "bin-wrapper": "^3.0.2",
+    "http": "0.0.0",
+    "http-proxy": "^1.13.3",
+    "logalot": "^2.1.0"
+  }
+}
